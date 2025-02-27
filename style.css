@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.navigation a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+.navigation a:hover {
+    color: #00ADB5;
+}
+.main {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+}
+.main h2 {
+    font-size: 40px;
+}
+.main span {
+    color: #ffdd57;
+}
+.main-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #ffdd57;
+    color: #222;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 300px;
+}
+.card .icon {
+    font-size: 30px;
+    color: #00ADB5;
+    margin-bottom: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+/* إضافة CSS للصورة الشخصية */
+.profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    border: 5px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* تغيير الخلفية لكل قسم */
+#about {
+    background-color: #e6f7ff;
+    padding: 40px 0;
+}
+#skills {
+    background-color: #f0f8ff;
+    padding: 40px 0;
+}
+#projects {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+#references {
+    background-color: #e9ecef;
+    padding: 40px 0;
+}
+#contact {
+    background-color: #f1f3f5;
+    padding: 40px 0;
+}
+/* تنسيق الجدول */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+th {
+    background-color: #0072ff;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
